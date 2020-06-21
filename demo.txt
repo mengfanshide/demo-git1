@@ -7,3 +7,6 @@ git status //查看git仓库当前的状态
 git diff <file> //查看git文件修改内容
 git log //查看git commit的日志内容
 git log --pretty=oneline //在一行内显示提交的日志
+git reset --hard HEAD^ || <commit id> //切换版本
+cat <file> //查看文件内容
+git reflog //查看修改日志
