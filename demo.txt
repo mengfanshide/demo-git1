@@ -1,0 +1,5 @@
+git --version //查看git版本
+git config --global <attr name> || -l || attr name '值' //查看全局配置
+git init //初始化git仓库
+git add <file> //把文件文件夹提交到暂存区
+git commit -m <file> //把暂存区中的文件提交到仓库
