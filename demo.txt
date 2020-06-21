@@ -1,5 +1,7 @@
 git --version //查看git版本
 git config --global <attr name> || -l || attr name '值' //查看全局配置
 git init //初始化git仓库
-git add <file> //把文件文件夹提交到暂存区
+git add <file> //把文件文件夹提交到暂存区 可以同时有多个文件名用空格隔开, 也可以是文件夹名
 git commit -m <file> //把暂存区中的文件提交到仓库
+git status //查看git仓库当前的状态
+git diff <file> //查看git文件修改内容
