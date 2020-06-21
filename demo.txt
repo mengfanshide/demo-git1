@@ -10,4 +10,4 @@ git log --pretty=oneline //在一行内显示提交的日志
 git reset --hard HEAD^ || <commit id> //切换版本
 cat <file> //查看文件内容
 git reflog //查看修改日志
-//随便写几个字
+//git 跟踪管理的是修改, 不是文件
