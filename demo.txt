@@ -11,3 +11,4 @@ git reset --hard HEAD^ || <commit id> //切换版本
 cat <file> //查看文件内容
 git reflog //查看修改日志
 //git 跟踪管理的是修改, 不是文件 git 会跟踪每一次修改
+git restore <file> //还原暂存或者仓库区中的文件
